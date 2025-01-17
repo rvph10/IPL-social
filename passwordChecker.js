@@ -1,6 +1,6 @@
 function isValidPassword(password) {
     // Check if password is empty
-    if (!password) {
+    if (!password || password.length === 0 ) {
         return false;
     }
 
@@ -16,21 +16,6 @@ function isValidPassword(password) {
 
     // Check for number
     if (!/\d/.test(password)) {
-        return false;
-    }
-
-    // Check for at least one letter
-    if (!/[a-zA-Z]/.test(password)) {
-        return false;
-    }
-
-    // Check for uppercase letter
-    if (!/[A-Z]/.test(password)) {
-        return false;
-    }
-
-    // Check for lowercase letter
-    if (!/[a-z]/.test(password)) {
         return false;
     }
 
