@@ -1,0 +1,24 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "## Student Information - Name: GENU - First Name: Raphael - Vinci Email: raphael.genu@student.vinci.be",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvph10/IPL-social.git"
+  },
+  "keywords": [],
+  "author": "Raphael Genu",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rvph10/IPL-social/issues"
+  },
+  "homepage": "https://github.com/rvph10/IPL-social#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
