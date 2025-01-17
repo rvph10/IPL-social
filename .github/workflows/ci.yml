@@ -23,3 +23,8 @@ jobs:
       
     - name: Run tests
       run: npm test
+
+    - name: Pipeline Status
+      run: |
+        echo "Pipeline completed successfully!"
+        echo "Branch name - ${{ github.head_ref || github.ref_name }}"
